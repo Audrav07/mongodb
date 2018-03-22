@@ -1,0 +1,45 @@
+
+  <div class="container-fluid">
+    <img src="/assets/img/martin-david-97119-unsplash.jpg" style="height:400px; width: 100%;">
+    <div class="text-center" >
+      <h1 class="top-title" style="font-size:60px;">Mongo News Scraper</h1>
+      <h3 class="sub-title">New York Times Edition</h3>
+    </div>
+
+  </div>
+
+  {{#each articles}}
+<div class="card">
+
+  <div class="story-body" id="{{this._id}}">
+  <div class="card-body">
+   <h2>
+  <a href="{{this.link}}" target="_blank">{{this.title}}</a>
+  </h2>
+   <summary>
+    {{this.summary}}
+  </summary>
+
+  <img class="media" src="{{this.img}}"></div>
+
+
+
+<form action="/save/{{this._id}}" method="post">
+    <button class="status" type="submit" value="{{this.status}}">{{this.status}}</button>
+  
+    {{#unless this.comment}} 
+    <button class="addcomment-button" style="background-color:#ffc400;" type="button" value="{{this._id}}">Add A Comment</button> 
+    {{/unless}} 
+
+    {{#if this.comment}} 
+    <button class="addcomment-button" type="button" value="{{this._id}}">Edit Comment</button> 
+
+    {{/if}}
+  </form>
+
+
+  
+  </div>
+</div>
+  {{/each}}
+  

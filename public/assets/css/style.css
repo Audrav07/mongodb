@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    line-height: 200%;
+}
+
+body {
+    background-color: #fff;
+}
+
+button {
+    border: 0;
+}
+
+
+
+
+#all-articles {
+/*    background-color: #999;*/
+}
+
+#saved-articles {
+    /*background-color: #aaa;*/
+}
+
+#refresh-articles {
+    background-color: #bbb;
+    
+}
+
+#all-articles:hover, #saved-articles:hover, #refresh-articles:hover {
+    background-color: #ccc;
+    opacity: 0.9;
+}
+
+#search-input {
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    min-width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#search-submit {
+    float: right;
+    height: 80%;
+    margin-top: 10px;
+    height: 63%;
+    margin-right: 10px;
+}
+
+#sitename {
+    float: left;
+    padding: 15px 11px;
+    height: 100%;
+    background-color: #92afcc;
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.7;
+}
+
+#cover {
+    width: 100%;
+}
+
+.story-body {
+    margin: auto;
+    width: 95%;
+    min-height: 200px;
+    box-shadow: 0 0 10px #aaa;
+    background-color: #fff;
+/*    margin-bottom: -100px;*/
+}
+
+.story-body h2 {
+/*    background-color: #cfd8dc;*/
+  /*  margin-bottom: 140px;*/
+}
+
+.story-body a {
+    float: left;
+    display: block;
+    width: 77%;
+    color: #000;
+    padding-left: 10px;
+    background-color: #f0eceb;
+}
+
+.story-body button {
+    display: inline;
+    min-width: 128px;
+    background-color: #729f98;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    height:40px;
+
+    margin-right: 33px;
+}
+
+.story-body button:hover {
+    background-color: #aed4fb;
+    box-shadow: 0 0 10px #fff;
+}
+
+.story-body summary {
+    float: left;
+    width: 80%;
+    padding: 0px 20px;
+}
+
+.story-body img {
+    display: inline-block;
+    width: 200px;
+}
+
+.message {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    margin: auto;
+    text-align: center;
+    padding: 40px 90px;
+    color: #aaa;
+    background-color: #fff;
+}
+
+#addcomment {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+   /* background-color: rgba(0,0,0,0.9);*/
+    z-index: 4;
+}
+
+.addcomment-button{
+        display: inline;
+    min-width: 128px;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    height:40px;
+
+    margin-left: -20px;
+  
+
+    background-color: #e6af4b;
+}
+
+
+
+.addcomment button:hover {
+    background-color: #2979ff;
+    box-shadow: 0 0 10px #fff;
+}
+
+#comment {
+    padding: 0 20px 20px 20px;
+}
+
+#comment-displayer {
+    width: 700px;
+    color:#000;
+    background-color: #fff;
+    z-index: 5;
+    border: 1px solid #000;
+}
+
+#comment-displayer h2 {
+    background-color: #bcd5d1;
+    color: #fff;
+    padding: 0 20px;
+    margin: 0;
+}
+
+#comment-displayer h3 {
+    padding: 0 20px;
+    margin: 0;
+    background-color: #ba9077;
+    color: #fff;
+}
+
+#comment-displayer label {
+    color: #aaa;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#comment-displayer button {
+    min-width: 128px;
+    background-color: #729f98;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 10px;
+    border-radius: 5px
+}
+
+#comment-displayer button:hover {
+    background-color: #aed4fb;
+    box-shadow: 0 0 10px #fff;
+}
+
+#comment-title {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#comment-body {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#container {
+    margin-bottom: 200px;
+}
+
+.card{
+    border:none;
+}
+
+
+
+html {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar{
+margin-bottom: auto;
+font-size: 20px;
+
+}
+
+#scrape{
+   /* float:right;*/
+
+   margin-left: 600px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+.container-fluid{
+background:white;
+
+
+}
+
+
+li {
+    margin-bottom: none;
+    display: block;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+
+
+.title{
+text-align: center;
+color: white;
+
+font-size: 55px;
+}
+
+#bodyinput {
+    width: 50%;
+}
+
+/*
+style="margin-top:-300px; color:white;"*/
+
+.status{
+    background-color: #e6af4b;
+
+}
+
+.top-title{
+margin-top: -250px;
+color: #fff;
+
+}
+
+.sub-title{
+    color: #fff;
+    margin-bottom: 165px;
+   
+}
+
+.panel-heading.row {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.panel-primary {
+    height: 135px;
+}
+
+#savecomment {
+    display: block;
+}
+
+
