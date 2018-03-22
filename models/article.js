@@ -16,7 +16,7 @@ var Articleschema = new Schema({
   },
   img: {
     type: String,
-    // default: "/assets/images/unavailable.jpg"
+
   },
   issaved: {
     type: Boolean,
