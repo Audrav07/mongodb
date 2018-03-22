@@ -3,6 +3,8 @@
 ## Overview
 The New York Times Scraper is a web app that allows users to view and save articles as well as leaving comments on them.  The app utilizes mongoose and cheerio to save and scrape new articles.
 
+Link: (https://mongoing.herokuapp.com/)
+
 ## Installation
 1. git clone (https://github.com/Audrav07/mongodb)
 2. Use terminal to go to the directory
