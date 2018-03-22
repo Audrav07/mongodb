@@ -11,6 +11,7 @@ Link: (https://mongoing.herokuapp.com/)
 3. Run npm install
 4. Update connection string to match your mongoDB
 
+(http://g.recordit.co/Oo9JSIc0b1.gif)
 
 # Packages Used
 - Node.js
