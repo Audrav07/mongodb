@@ -12,8 +12,6 @@ Link: (https://mongoing.herokuapp.com/)
 4. Update connection string to match your mongoDB
 
 
-<img src="http://g.recordit.co/Oo9JSIc0b1.gif">
-<img src="http://g.recordit.co/Oo9JSIc0b1.gif">
 
 # Packages Used
 - Node.js
